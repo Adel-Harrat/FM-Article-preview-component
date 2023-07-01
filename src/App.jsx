@@ -13,7 +13,7 @@ const App = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="font-manrope bg-grey min-h-screen px-5 grid place-items-center">
-      <main className="bg-white rounded-xl shadow-lg lg:shadow-xl max-w-[52rem] lg:flex lg:space-x-4">
+      <main className="bg-white rounded-xl shadow-lg lg:shadow-xl max-w-[52rem] lg:flex lg:space-x-4 overflow-hidden lg:overflow-visible">
         <div className="max-h-64 lg:max-h-full overflow-hidden basis-[50rem]">
           <img
             src={drawers}
